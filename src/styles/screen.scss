@@ -1,7 +1,7 @@
 @import 'utility';
 
 $base-text-size: 16px;
-$base-font-family: sans-serif;
+$base-font-family: 'Mouse Memoirs', sans-serif;
 
 html {
   @include full-height;
@@ -10,4 +10,13 @@ html {
 body {
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
+  // font-family: 'Freckle Face', cursive;
+  // font-family: 'Mouse Memoirs', sans-serif;
+}
+
+.input-group {
+  margin-top: 20px;
+  max-width: 75%;
+  margin-left: 10px;
+  // font-family: 'Mouse Memoirs', sans-serif;
 }
