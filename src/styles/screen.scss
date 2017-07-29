@@ -17,5 +17,36 @@ button {
 .input-group {
   margin-top: 20px;
   max-width: 75%;
+  margin-left: 15px;
+}
+
+.table-hover {
+  max-width: 90%;
   margin-left: 10px;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+
+thead,
+tr,
+td,
+th,
+tbody {
+  border: 1px solid black;
+}
+
+td,
+th {
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+svg {
+  height: 150px;
+}
+
+td:first-of-type,
+td:first-of-type > div {
+  height: 200px;
+  width: 250px;
 }
